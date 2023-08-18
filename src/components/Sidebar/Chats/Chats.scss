@@ -1,0 +1,30 @@
+.chats {
+  border-bottom: 1px solid grey;
+  .sidebar__chat {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    cursor: pointer;
+    &:hover {
+      background-color: #353455;
+    }
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .sidebar__chatInfo{
+        span{
+            font-size: 18px;
+            font-weight: 500;
+        }
+        p{
+            font-size: 14px;
+            color: lightgrey;
+        }
+    }
+  }
+}

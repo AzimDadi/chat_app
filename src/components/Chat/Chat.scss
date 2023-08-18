@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.chat {
+  font-family: "Roboto", sans-serif;
+  flex: 2;
+  .chat__info {
+    height: 50px;
+    background-color: #5d5b8d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: lightgrey;
+    .chat__icons{
+        display: flex;
+        gap: 10px;
+        img{
+            height: 24px;
+            cursor: pointer;
+        }
+    }
+  }
+}
