@@ -88,7 +88,7 @@ const Input = () => {
         onChange={(e) => setText(e.target.value)}
         value={text}
       />
-      <div className="input__send">
+      <div className="input__send" >
         <img src={ATTACH} alt="" />
         <input
           type="file"
